@@ -335,6 +335,20 @@ recognizers:
     enabled: false
     country_code: fi
 
+  - name: FrFinessRecognizer
+    supported_languages:
+    - fr
+    type: predefined
+    enabled: false
+    country_code: fr
+
+  - name: FrRppsRecognizer
+    supported_languages:
+    - fr
+    type: predefined
+    enabled: false
+    country_code: fr
+
   - name: KrBrnRecognizer
     supported_languages: 
     - ko

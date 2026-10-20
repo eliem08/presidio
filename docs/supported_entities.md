@@ -111,6 +111,12 @@ For more information, refer to the [adding new recognizers documentation](analyz
 |------------|---------------------------------------------------------------------------------------------------------|------------------------------------------|
 | FI_PERSONAL_IDENTITY_CODE     | The Finnish Personal Identity Code (Henkilötunnus) is a unique 11 character individual identity number. | Pattern match, context and custom logic. |
 
+### France
+| FieldType  | Description                                                                                             | Detection Method                         |
+|------------|---------------------------------------------------------------------------------------------------------|------------------------------------------|
+| FR_FINESS | The French FINESS number is a 9-digit identifier of healthcare and social establishments (hospitals, clinics, pharmacies) and their legal entities, ending in a Luhn check digit. | Pattern match, context, and checksum. |
+| FR_RPPS | The French RPPS number is an 11-digit identifier of healthcare professionals (physicians, pharmacists, midwives, dentists), starting with 10 and ending in a Luhn check digit. | Pattern match, context, and checksum. |
+
 ### Korea
 | FieldType  | Description                                                                                             | Detection Method                         |
 |------------|---------------------------------------------------------------------------------------------------------|------------------------------------------|

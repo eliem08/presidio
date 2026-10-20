@@ -19,6 +19,10 @@ from .country_specific.finland.fi_personal_identity_code_recognizer import (
     FiPersonalIdentityCodeRecognizer,
 )
 
+# France recognizers
+from .country_specific.france.fr_finess_recognizer import FrFinessRecognizer
+from .country_specific.france.fr_rpps_recognizer import FrRppsRecognizer
+
 # Germany recognizers
 from .country_specific.germany.de_bsnr_recognizer import DeBsnrRecognizer
 from .country_specific.germany.de_fuehrerschein_recognizer import (
@@ -279,6 +283,8 @@ __all__ = [
     "InVoterRecognizer",
     "InPassportRecognizer",
     "FiPersonalIdentityCodeRecognizer",
+    "FrFinessRecognizer",
+    "FrRppsRecognizer",
     "EsNieRecognizer",
     "EsPassportRecognizer",
     "UkDrivingLicenceRecognizer",
